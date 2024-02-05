@@ -5,18 +5,20 @@
 :sectnums:
 :numbered:
 
-Welcome to the streamlined guide for Dungeons & Dragons 5th Edition. This document simplifies the original rules to make gameplay quick to learn and easy to reference. By employing variable-like shorthand (e.g., GM for Game Master, PX for Players) and focusing on the core mechanics, we aim to enhance your gaming experience with efficiency and clarity.
 
 == How to Play Simplified
 The essence of D&D play follows a cyclical pattern:
 
-. The *GM* describes the environment.
-. *PXs* decide and describe their actions.
-. The *GM* narrates the outcomes, leading back to step 1.
+. People gather together. One person is Game Master (GM), the rest are players(PX).
+. PX's play as Player Characters (PC).
+. GM plays as characters that are not controlled by players (NPC).
+. GM Describes the environment.
+. PX's describe what they want to do.
+. GM narrates the results of the PXs' actions.
 
 This cycle applies to exploration, interaction, and combat, with flexibility for creativity and improvisation.
 
-== Essential Game Dice
+== Game Dice
 D&D uses polyhedral dice, abbreviated as d[number] (e.g., d20 for a twenty-sided die). The d20 is crucial for most decisions and actions in the game.
 
 * Dice Needed: d4, d6, d8, d10, d12, d20
