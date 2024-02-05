@@ -1,0 +1,132 @@
+= DND 5eSRD Condensed Introduction
+:doctype: book
+:icons: font
+:toc: left
+:sectnums:
+:numbered:
+
+Welcome to the streamlined guide for Dungeons & Dragons 5th Edition. This document simplifies the original rules to make gameplay quick to learn and easy to reference. By employing variable-like shorthand (e.g., GM for Game Master, PX for Players) and focusing on the core mechanics, we aim to enhance your gaming experience with efficiency and clarity.
+
+== How to Play Simplified
+The essence of D&D play follows a cyclical pattern:
+
+. The *GM* describes the environment.
+. *PXs* decide and describe their actions.
+. The *GM* narrates the outcomes, leading back to step 1.
+
+This cycle applies to exploration, interaction, and combat, with flexibility for creativity and improvisation.
+
+== Essential Game Dice
+D&D uses polyhedral dice, abbreviated as d[number] (e.g., d20 for a twenty-sided die). The d20 is crucial for most decisions and actions in the game.
+
+* Dice Needed: d4, d6, d8, d10, d12, d20
+** For percentile rolls (1-100), roll 2d10 as tens and ones digits.
+
+== Core Mechanics: The THREE_MAIN_ROLLS
+The game's decisions hinge on three types of d20 rolls:
+
+. Ability Check: Assessing skill or natural talent.
+. Attack Roll: Determining hits in combat.
+. Saving Throw: Resisting effects or hazards.
+
+=== Example: Disarming a Trap
+
+[example]
+====
+PX's PC attempts to disarm a trap. Given high expertise:
+
+. Roll d20 + DEX modifier (with advantage due to expertise).
+. Initial roll: 12 + DEXMOD (+2) = 14.
+. Adjust for magic item: +1 DEXMOD, total 15.
+. With advantage, roll again: result 18.
+. Higher result (18) used, exceeding the DC set by GM.
+====
+
+== Additional Key Rules
+
+=== AC and DC
+* AC (Armor Class): Target number for attack rolls.
+* DC (Difficulty Class): Target number for checks and saves.
+
+=== Advantage vs. Disadvantage
+* Roll two d20s, use higher roll for advantage, lower for disadvantage.
+
+=== Specific Beats General
+If a specific rule contradicts a general rule, the specific rule prevails.
+
+=== Round Down Rule
+Always round down fractions, regardless of decimal value.
+
+== Pseudo-code for Basic Rolls
+
+[source,python]
+----
+def basic_roll(modifier, advantage=False, disadvantage=False):
+    roll1 = roll_d20()
+    roll2 = roll_d20() if advantage or disadvantage else roll1
+    final_roll = max(roll1, roll2) if advantage else min(roll1, roll2)
+    return final_roll + modifier
+----
+
+== Adventures
+
+Adventures form the core of the Dungeons & Dragons experience, where characters of diverse backgrounds and abilities come together to explore, interact, and battle within a narrative crafted by the Dungeon Master (DM). This guide condenses the essence of adventures, emphasizing the cooperative and dynamic nature of player (PX) engagement within D&D's imaginative realms.
+
+== The Essence of Adventure
+An adventure is a story with a beginning, middle, and end, presented or created by the DM. It features:
+
+* Varied settings: dungeons, castles, wilderness, cities.
+* Rich character cast: Player Characters (PCs), Non-Player Characters (NPCs), including allies, enemies, and neutrals.
+* Central conflict: Often driven by a villain's agenda.
+* Challenges: Combat, dialogue, puzzles, and exploration.
+* Length and complexity: From single sessions to campaigns spanning months.
+
+Adventures are the episodic tales that, when strung together, form a campaign—a series of connected stories with the same PCs navigating the evolving narrative.
+
+== The Three Pillars of Adventure
+Adventures in D&D are broadly categorized into exploration, social interaction, and combat, each offering unique challenges and opportunities for creative problem-solving.
+
+=== Exploration
+Involves navigating the world and interacting with the environment. It's a dynamic exchange between the PXs describing their actions and the DM narrating the outcomes.
+
+[source,python]
+----
+# Example: Exploration Action
+action = "pull the lever"
+outcome = explore(action)
+print(f"Upon {action}, {outcome}")
+----
+
+=== Social Interaction
+Centers on the PCs engaging with NPCs. It can range from negotiation, persuasion, to gathering information.
+
+[source,python]
+----
+# Example: Social Interaction
+npc = "orc chieftain"
+action = "plead for mercy"
+result = interact(npc, action)
+print(f"Trying to {action} with the {npc}, you {result}")
+----
+
+=== Combat
+Detailed in Chapter 9, combat is a structured sequence where characters and creatures engage in battle, employing strategies, weapons, and magic to overcome their foes.
+
+[source,python]
+----
+# Example: Combat Sequence
+enemy = "goblin"
+action = combat_action(player, enemy)
+print(f"Attacking the {enemy}, you {action}")
+----
+
+== The Wonders of Magic
+Magic plays a pivotal role, offering both peril and aid. It's a resource for adventurers and a common tool for villains, driving many of the adventures' central conflicts.
+
+* Magic users are rare, their abilities setting them apart.
+* For PCs, magic is crucial for healing, support, and power.
+* Villains often use magic to further their nefarious goals.
+
+Adventures frequently hinge on magical events, encounters, and the pursuit or utilization of arcane knowledge and artifacts. Magic imbues the D&D world with wonder, danger, and endless possibilities for adventure.
+
+This condensed overview captures the fundamental aspects of D&D adventures, offering a streamlined reference for DMs and players alike. It highlights the importance of narrative, the roles of characters, and the central place of magic, setting the stage for memorable and engaging gameplay experiences.
