@@ -6,30 +6,32 @@
 :numbered:
 
 
-== How to Play Simplified
-The essence of D&D play follows a cyclical pattern:
+== How to Play
 
 . People gather together. One person is Game Master (GM), the rest are players(PX).
-. PX's play as Player Characters (PC).
-. GM plays as characters that are not controlled by players (NPC).
+. PX's each play as a Player Character (PC).
+. GM plays as each character that is not controlled by players (NPC).
 . GM Describes the environment.
-. PX's describe what they want to do.
-. GM narrates the results of the PXs' actions.
+. PX each describe what they want their PC to do.
+. GM narrates the results of the PC's actions.
 
 This cycle applies to exploration, interaction, and combat, with flexibility for creativity and improvisation.
 
 == Game Dice
-D&D uses polyhedral dice, abbreviated as d[number] (e.g., d20 for a twenty-sided die). The d20 is crucial for most decisions and actions in the game.
 
-* Dice Needed: d4, d6, d8, d10, d12, d20
-** For percentile rolls (1-100), roll 2d10 as tens and ones digits.
+* Game requires at least one of each: d4, d6, d8, d10, d12, d20
+* All PX can share dice, but it's best if each PX has their own set. 
+* d20 is the most used dice in D&D.
+* Percentile dice (or d100) is not a dice per se.
+** Need a number between 1 and 100? roll 2d10 (before roll, designate one as ones digit, the other as tens digit.
+
 
 == Core Mechanics: The THREE_MAIN_ROLLS
 The game's decisions hinge on three types of d20 rolls:
 
-. Ability Check: Assessing skill or natural talent.
-. Attack Roll: Determining hits in combat.
-. Saving Throw: Resisting effects or hazards.
+* Ability Check: Assessing skill or natural talent.
+* Attack Roll: Determining hits in combat.
+* Saving Throw: Resisting effects or hazards.
 
 === Example: Disarming a Trap
 
